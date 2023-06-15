@@ -1,0 +1,11 @@
+name: "."
+title: "My Health Data Science Blog"
+description: "Dare to See Beyond the Average!"
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+output: distill::distill_article
